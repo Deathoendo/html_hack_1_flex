@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    min-height: calc(100vh - (72px + 18px));
+}
+
+*::after,
+*::before{box-sizing: border-box;}
+
+  .b0 {
+    background-color: #93b5c9;
+    height: 100px;
+  }
+
+  .b1 {
+    background-color: #AB2849;
+    height: 300px;
+  }
+
+  section {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+
+  }
+
+.br {
+    margin: 20px 0;
+    background-color: #AB2849;
+    height: 200px;
+    width: 80%;
+  }
+
+  footer {
+    width: 95%;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #AB2849;
+  }
